@@ -3,3 +3,11 @@ background-color: antiquewhite;
 text-align: center;
 }
 
+.header-section {
+background-color: aquamarine;
+}
+
+.footer-section {
+background-color: black;
+color: white;
+}
