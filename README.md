@@ -50,19 +50,19 @@ MVP Example
 
 # Time Frames
 
-| Component               | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component               | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------- | :------: | :------------: | :------------: | :---------: |
-| API Pull - Each Section |    H     |      hrs       |      hrs       |     hrs     |
-| Working with API        |    H     |      hrs       |      hrs       |     hrs     |
-| Header                  |    H     |      hrs       |      hrs       |     hrs     |
-| Footer                  |    H     |      hrs       |      hrs       |     hrs     |
-| Breaking News           |    H     |      hrs       |      hrs       |     hrs     |
-| Entertainment News      |    H     |      hrs       |      hrs       |     hrs     |
-| Financial News          |    H     |      hrs       |      hrs       |     hrs     |
-| Mexico News             |    H     |      hrs       |      hrs       |     hrs     |
-| Main.jsx                |    H     |      hrs       |      hrs       |     hrs     |
-| Date                    |    H     |      hrs       |      hrs       |     hrs     |
-| Total                   |    H     |      hrs       |      hrs       |     hrs     |
+| API Pull - Each Section |    H     |      6hrs       |      hrs       |     hrs     |
+| Working with API        |    H     |      6hrs       |      hrs       |     hrs     |
+| Header                  |    H     |      3hrs       |      hrs       |     hrs     |
+| Footer                  |    H     |      1hrs       |      hrs       |     hrs     |
+| Breaking News           |    H     |      5hrs       |      hrs       |     hrs     |
+| Entertainment News      |    H     |      5hrs       |      hrs       |     hrs     |
+| Financial News          |    H     |      5hrs       |      hrs       |     hrs     |
+| Mexico News             |    H     |      5hrs       |      hrs       |     hrs     |
+| Main.jsx                |    H     |      6hrs       |      hrs       |     hrs     |
+| Date                    |    H     |      2hrs       |      hrs       |     hrs     |
+| Total                   |    H     |      44hrs       |      hrs       |     hrs     |
 
 # Link to API & Site being used:
 
