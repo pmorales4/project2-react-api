@@ -12,11 +12,13 @@ class Main extends Component {
   componentDidMount() {
     const url =
       "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=63f2a4bf5bdd42b3bf1f0851aa78b335";
-
+    console.log(url);
     fetch(url)
       .then(res => res.json())
       .then(res => {
-        console.log("Data is back to site");
+          //PULLS DATA FROM HERE TO CONSOLE. 
+        console.log(res);
+
         this.setState({
           newsdata: res
         });
@@ -25,9 +27,10 @@ class Main extends Component {
 
   render() {
     return (
+
       <div className="news-articles">
         <h1>Articles from the Web!</h1>
-        {this.state.newsdata.map(articles => (
+        {this.state.newsdata.map((articles) => (
           <div>
             <h2>{articles.author}</h2>
             {/* <h3>{articles.description}</h3>
@@ -35,7 +38,7 @@ class Main extends Component {
           </div>
         ))}
       </div>
-    );
+      )
   }
 }
 
