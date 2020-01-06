@@ -6,4 +6,4 @@ The project two API I have chosen is News.org-api. I am looking to add eight com
 
 The forthocoming errors I will plan to fix by researching how to use one pull with several output components with data (news section within app). By drilling down I can fix whatever errors may happen throughout my project. Below you will see a wireframe of what the projects looks like at this time.
 
-![picture](images/Project-2-Wireframe.jpg)
+![picture](src/images/Project-2-Wireframe.jpg)
