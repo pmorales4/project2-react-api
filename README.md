@@ -70,7 +70,7 @@ API: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=63
 
 Deployment Link: https://pmorales.netlify.com
 
-## Code Snippet
+## Code Issues
 
 ![picture](src/images/vscode-snip.png)
 ![picture](src/images/data-snip.png)
