@@ -1,7 +1,4 @@
-
-
-
-#Collection of Wireframe & Explanation:
+Collection of Wireframe & Explanation:
 
 The project two API I have chosen is News.org-api. I am looking to add eight components to the project. Within the eight components, five will pull data in order to populate their section of the application with news information. My thought process is to pull data within each of those components but I may see errors forthcoming within my application due to repetitiveness of code.
 
