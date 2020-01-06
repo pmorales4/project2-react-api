@@ -62,8 +62,7 @@ MVP Example
 | Mexico News             |    H     |      hrs       |      hrs       |     hrs     |
 | Main.jsx                |    H     |      hrs       |      hrs       |     hrs     |
 | Date                    |    H     |      hrs       |      hrs       |     hrs     |
-
-| Total | H | hrs| hrs | hrs |
+| Total                   |    H     |      hrs       |      hrs       |     hrs     |
 
 # Link to API & Site being used:
 
@@ -74,4 +73,4 @@ Deployment Link: https://pmorales.netlify.com
 ## Code Snippet
 
 ![picture](src/images/vscode-snip.png)
-![picture](src/images/data-snip.jpg)
+![picture](src/images/data-snip.png)
