@@ -19,23 +19,22 @@ class Main extends Component {
         console.log("Data is back to site");
         this.setState({
           newsdata: res
-          
         });
-        console.log(newsdata);
       });
   }
 
   render() {
-    
     return (
-      <>
+      <div className="news-articles">
+        <h1>Articles from the Web!</h1>
         {this.state.newsdata.map(articles => (
           <div>
             <h2>{articles.author}</h2>
-            <h3>{articles.description}</h3>
-            <img src={articles.urlToImage} />
-          </div>))}
-      </>
+            {/* <h3>{articles.description}</h3>
+            <img src={articles.urlToImage} /> */}
+          </div>
+        ))}
+      </div>
     );
   }
 }
