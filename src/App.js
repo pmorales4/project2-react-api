@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Component/Footer.jsx";
-import Header from "./Component/Header";
+import Header from "./Component/Header.jsx";
+import Main from "./Component/Main.jsx";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
       <p>React API Project 2</p>
       <p>API Workings</p>
 
+   
       <Header />
+      <Main />
       <Footer />
     </div>
   );
