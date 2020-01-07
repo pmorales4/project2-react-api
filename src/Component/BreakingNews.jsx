@@ -28,7 +28,7 @@ class BreakingNews extends Component {
             ))}
           </div>
         ) : (
-          <h1>nothing</h1>
+          <h1></h1>
         )}
       </>
     );

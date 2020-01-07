@@ -30,7 +30,7 @@ class Main extends Component {
     return (
       <div className="news-articles">
         <>
-          <h1>Articles from the Web!</h1>
+          <h1>Breaking News!</h1>
           <BreakingNews data={this.state.newsdata}/>
         </>
       </div>
