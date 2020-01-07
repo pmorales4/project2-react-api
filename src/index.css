@@ -25,8 +25,10 @@ img {
 }
 
 .card {
-    width:  16rem;
-    display: inline-block;
+    width:  14rem;
+    
+  display: inline-block;
+ 
 }
 
 .card-title{
