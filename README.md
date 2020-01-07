@@ -62,7 +62,8 @@ MVP Example
 | Mexico News             |    H     |      5hrs      |      hrs      |     hrs     |
 | Main.jsx                |    H     |      6hrs      |      hrs      |     hrs     |
 | Date                    |    H     |      2hrs      |      hrs      |     hrs     |
-| Total                   |    H     |     44hrs      |      hrs      |     hrs     |
+| Research & Issues       |    H     |      2hrs      |     6hrs      |    6hrs     |
+| Total                   |    H     |     44hrs      |    11.5hrs    |    17hrs    |
 
 # Link to API & Site being used:
 
