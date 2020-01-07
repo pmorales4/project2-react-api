@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BreakingNews from "./BreakingNews.jsx";
 
 class Main extends Component {
   constructor() {
@@ -17,7 +18,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         //PULLS DATA FROM HERE TO CONSOLE.
-        console.log(res);
+       
 
         this.setState({
           newsdata: res.articles
@@ -25,24 +26,13 @@ class Main extends Component {
       });
   }
 
-
   render() {
-   
     return (
       <div className="news-articles">
         <>
-        <h1>Articles from the Web!</h1>
-       {this.state.newsdata.map(articles => (
-         <ul>
-       
-       <li>Title: {articles.title}</li>
-  <li>Source: {articles.source.name}</li>
-       <img src={articles.urlToImage} />
-  <li>Content: {articles.content}</li>
-       </ul>
-       ))}
-   
-       </>
+          <h1>Articles from the Web!</h1>
+          <BreakingNews data={this.state.newsdata}/>
+        </>
       </div>
     );
   }
