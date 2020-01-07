@@ -36,17 +36,18 @@ MVP Example
 
 # Components
 
-| Component          |                      Description                       |
-| ------------------ | :----------------------------------------------------: |
-| App                |     This will have all the component links to site     |
-| Header             | This will render the header include the Data and title |
-| Footer             |        This will render the footer information         |
-| Breaking News      |          This will render the BR news section          |
-| Financial News     |           This will render Money information           |
-| Mexico News        |        This will render Lation News information        |
-| Main               |    This will render the inital data pull for state     |
-| Entertainment News |          This will render entertainment news           |
-| Date               |       This will render the current date on site        |
+| Component                |                      Description                       |
+| ------------------------ | :----------------------------------------------------: |
+| App                      |     This will have all the component links to site     |
+| Header                   | This will render the header include the Data and title |
+| Footer                   |        This will render the footer information         |
+| Breaking News            |          This will render the BR news section          |
+| Financial News           |           This will render Money information           |
+| Mexico News              |        This will render Lation News information        |
+| Main                     |    This will render the inital data pull for state     |
+| Entertainment News       |          This will render entertainment news           |
+| Date                     |       This will render the current date on site        |
+| Non-Component - RESEARCH |  Finding solutions and information on errors over web  |
 
 # Time Frames
 
@@ -86,3 +87,9 @@ Before:
 ![picture](src/images/ternary.png)
 After:
 ![picture](src/images/afterternary.png)
+
+# 2nd Issue
+
+Trying to figure out how to make multiples STATE, in order to pull information from multiple news APIs for site.  Currently researching the issue.  At this time STATE looks like this below: 
+
+![picture](src/images/state.png)
