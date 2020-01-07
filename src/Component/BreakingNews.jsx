@@ -17,7 +17,7 @@ class BreakingNews extends Component {
                   <h5 className="card-title">{articles.title}</h5>
                   <p className="card-text">{articles.description}</p>
                   <a
-                    href="{article.url}"
+                    href={articles.url}
                     className="btn btn-primary"
                     target="_blank"
                   >
