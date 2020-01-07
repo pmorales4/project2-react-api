@@ -51,18 +51,18 @@ MVP Example
 # Time Frames
 
 | Component               | Priority | Estimated Time | Time Invested | Actual Time |
-| ----------------------- | :------: | :------------: | :------------: | :---------: |
-| API Pull - Each Section |    H     |      6hrs       |      1.5hrs       |     2hrs     |
-| Working with API        |    H     |      6hrs       |      2hrs       |     5hrs     |
-| Header                  |    H     |      3hrs       |      hrs       |     hrs     |
-| Footer                  |    H     |      1hrs       |      hrs       |     hrs     |
-| Breaking News           |    H     |      5hrs       |      2hrs       |     4hrs     |
-| Entertainment News      |    H     |      5hrs       |      hrs       |     hrs     |
-| Financial News          |    H     |      5hrs       |      hrs       |     hrs     |
-| Mexico News             |    H     |      5hrs       |      hrs       |     hrs     |
-| Main.jsx                |    H     |      6hrs       |      hrs       |     hrs     |
-| Date                    |    H     |      2hrs       |      hrs       |     hrs     |
-| Total                   |    H     |      44hrs       |      hrs       |     hrs     |
+| ----------------------- | :------: | :------------: | :-----------: | :---------: |
+| API Pull - Each Section |    H     |      6hrs      |    1.5hrs     |    2hrs     |
+| Working with API        |    H     |      6hrs      |     2hrs      |    5hrs     |
+| Header                  |    H     |      3hrs      |      hrs      |     hrs     |
+| Footer                  |    H     |      1hrs      |      hrs      |     hrs     |
+| Breaking News           |    H     |      5hrs      |     2hrs      |    4hrs     |
+| Entertainment News      |    H     |      5hrs      |      hrs      |     hrs     |
+| Financial News          |    H     |      5hrs      |      hrs      |     hrs     |
+| Mexico News             |    H     |      5hrs      |      hrs      |     hrs     |
+| Main.jsx                |    H     |      6hrs      |      hrs      |     hrs     |
+| Date                    |    H     |      2hrs      |      hrs      |     hrs     |
+| Total                   |    H     |     44hrs      |      hrs      |     hrs     |
 
 # Link to API & Site being used:
 
@@ -75,12 +75,13 @@ Deployment Link: https://pmorales.netlify.com
 ![picture](src/images/vscode-snip.png)
 ![picture](src/images/data-snip.png)
 
+Completed could not pull data(news) from API as props to component. The big issue was consistent, 'undefined' data on return from API. I changed component from a function to a class and vice versa.
 
-Completed could not pull data(news) from API as props to component.  The big issue was consistent, 'undefined' data on return from API.  I changed component from a function to a class and vice versa.  
-# Outcome of issue: 
-In order to deal with 'undefined' as the return from an empty array or object programmer must use either an (if/else) or (Ternary Operator).  I ternary operator will allow to put it within JSX and work with the props pull for the data in it.
+# Outcome of issue:
 
-Before: 
+In order to deal with 'undefined' as the return from an empty array or object programmer must use either an (if/else) or (Ternary Operator). I ternary operator will allow to put it within JSX and work with the props pull for the data in it.
+
+Before:
 ![picture](src/images/ternary.png)
 After:
 ![picture](src/images/afterternary.png)

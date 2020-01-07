@@ -1,40 +1,37 @@
 import React, { Component } from "react";
 
 class BreakingNews extends Component {
-constructor(props) {
-  super(props)
-this._handleData = this._handleData.bind(this);
-//console.log(props.data);
-}
-
-
-_handleData(props){
-  console.log(props);
-}
-
-
-
   render() {
-  console.log(this.props)
     return (
-    <>
-      {
-        this.props.data ? 
-        <div>
-          {this.props.data.map((articles, index) => (
-              <ul key={index}>
-                <li>Title: {articles.title}</li>
-                <li>Source: {articles.source.name}</li>
-                <img src={articles.urlToImage} />
-                <li>Content: {articles.content}</li>
-              </ul>
+      <>
+        {this.props.data ? (
+          <div>
+            {this.props.data.map(articles => (
+              <div className="card">
+                <img
+                  src={articles.urlToImage}
+                  className="card-img-top"
+                  alt="?Article Picture"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{articles.title}</h5>
+                  <p className="card-text">{articles.description}</p>
+                  <a
+                    href="{article.url}"
+                    className="btn btn-primary"
+                    target="_blank"
+                  >
+                    Article Link
+                  </a>
+                </div>
+              </div>
             ))}
-        </div> 
-        : 
-        <h1>nothing</h1>
-      }
-    </>
-    )
+          </div>
+        ) : (
+          <h1>nothing</h1>
+        )}
+      </>
+    );
   }
 }
 
