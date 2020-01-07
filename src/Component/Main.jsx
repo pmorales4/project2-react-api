@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import BreakingNews from "./BreakingNews.jsx";
+import BreakingNews from "../Component/BreakNews/BreakingNews.jsx";
+import Title from '../Component/BreakNews/BreakingNewsTitle.jsx';
 
 class Main extends Component {
   constructor() {
@@ -30,7 +31,7 @@ class Main extends Component {
     return (
       <div className="news-articles">
         <>
-          <h1>Breaking News!</h1>
+          <Title />
           <BreakingNews data={this.state.newsdata}/>
         </>
       </div>

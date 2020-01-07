@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class BreakingNews extends Component {
   render() {
-    console.log(this.props.data);
     return (
       <>
         {this.props.data ? (
@@ -16,8 +15,8 @@ class BreakingNews extends Component {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{articles.title}</h5>
-            <h5 className='card-author'>{articles.author}</h5>
-            <h5 className='card-source-name'>Source: {articles.source.name}</h5>
+                  <h5 className="list-group-item">{articles.author}</h5>
+
                   <a
                     href={articles.url}
                     className="btn btn-primary"

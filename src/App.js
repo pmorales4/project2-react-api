@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Component/Footer.jsx";
 import Header from "./Component/Header.jsx";
 import Main from "./Component/Main.jsx";
-import Break from "./Component/BreakingNews.jsx";
+import Break from "./Component/BreakNews/BreakingNews.jsx";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,9 @@ function App() {
       
       <Header />
       <Break />
+      <div className='breakingnews-section-div'>
       <Main />
+      </div>
       <Footer />
     </div>
   );
