@@ -82,10 +82,15 @@ class Main extends Component {
               <EntertainNews data={this.state.entertainmentdata} />
             </div>
           </div>
-          <TechTitle />
-          <TechnologyNews data={this.state.technologydata} />
-          <LatinTitle />
-          <LatinoNews data={this.state.latinodata} />
+
+          <div className="tech-section">
+            <TechTitle />
+            <TechnologyNews data={this.state.technologydata} />
+          </div>
+          <div className="latin-section">
+            <LatinTitle />
+            <LatinoNews data={this.state.latinodata} />
+          </div>
         </>
       </div>
     );
