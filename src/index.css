@@ -28,7 +28,7 @@ body {
     display: inline-flex;
 }
 
-.btn {}
+
 
 
 .card {
@@ -37,8 +37,11 @@ body {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    border: rgb(189, 188, 188) 2px solid;
+    border: 1px solid;
+    border-color: #bab8b9;
 }
+
+
 
 .card-body {
     height: 11rem;
@@ -66,23 +69,23 @@ body {
 
 .top-article-section {
     background-color: darkorange;
-    
+
 }
 
 .breakingnews-section-div {
-    background-color: rgb(226, 228, 228);
+    background-color: #e3e2df;
 
 }
 
 .entertainnews-section-div {
-    background-color: rgb(215, 213, 213);
-    align-items: stretch;
+    background-color: #e3e2df;
+  
 }
 
-.tech-section{
-    background-color: whitesmoke;
+.tech-section {
+    background-color: #e3e2df;
 }
 
-.latin-section{
-    background-color: whitesmoke;
+.latin-section {
+    background-color: #e3e2df;
 }
