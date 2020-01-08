@@ -28,8 +28,8 @@ img {}
 
 .card {
     width: 14rem;
-    display: inline-block;
-
+   
+display: inline-block;
 
 
 
@@ -48,9 +48,6 @@ img {}
     font-size: smaller;
 }
 
-
-
-
 .break-title {
     text-align: left;
     font-size: large;
@@ -60,17 +57,20 @@ img {}
 
 .breakingnews-section-div {
     background-color: aqua;
+margin: 1%;
+flex: 0 0 45%;
 
-    margin-top: 10px;
-    margin-right: 50%;
-    margin-bottom: 20%;
 
 }
 
 .entertainnews-section-div {
     background-color: lightcoral;
-    position: relative;
-  margin-left: 55%;
-margin-top: 80px;
+    margin: 1%;
+    flex: 1;
 
+}
+
+.top-article-section{
+    background-color: darkorange;
+    display: flex;
 }
