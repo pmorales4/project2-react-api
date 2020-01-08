@@ -19,7 +19,7 @@ class BreakingNews extends Component {
 
                   <a
                     href={articles.url}
-                    className="btn btn-danger btn-lg btn-block"
+                    className="btn btn-success btn-lg btn-block"
                     target="_blank"
                   >
                     Read Me

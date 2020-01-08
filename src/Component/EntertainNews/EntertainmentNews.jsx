@@ -19,7 +19,7 @@ class EntertainmentNews extends Component {
 
                   <a
                     href={articles.url}
-                    className="btn btn-primary btn-lg btn-block"
+                    className="btn btn-secondary btn-lg btn-block"
                     target="_blank"
                   >
                     Read Me

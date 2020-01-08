@@ -24,14 +24,11 @@ body {
 
 .card-img-top {
     /* width: 100%; */
-    height: 16rem;  
+    height: 16rem;
     display: inline-flex;
 }
 
-.btn{
-
-    
-}
+.btn {}
 
 
 .card {
@@ -40,15 +37,15 @@ body {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    border: rgb(232, 232, 232) 2px solid;
+    border: rgb(189, 188, 188) 2px solid;
 }
 
-.card-body{
+.card-body {
     height: 11rem;
 
 }
 
-.main-card{
+.main-card {
     padding-bottom: 10rem;
 }
 
@@ -65,29 +62,27 @@ body {
     font-size: smaller;
 }
 
-.break-title {
-  
+.break-title {}
+
+.top-article-section {
+    background-color: darkorange;
+    
 }
 
 .breakingnews-section-div {
-    background-color: aqua;
-    
-  
-    
-
+    background-color: rgb(226, 228, 228);
 
 }
 
 .entertainnews-section-div {
-    background-color: lightcoral;
-  align-items: stretch;
-   
-
+    background-color: rgb(215, 213, 213);
+    align-items: stretch;
 }
 
-.top-article-section {
-    background-color: darkorange;
-    display: flex;
-   
-   
+.tech-section{
+    background-color: whitesmoke;
+}
+
+.latin-section{
+    background-color: whitesmoke;
 }

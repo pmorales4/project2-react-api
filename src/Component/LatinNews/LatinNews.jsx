@@ -19,7 +19,7 @@ class LatinoNews extends Component {
 
                   <a
                     href={articles.url}
-                    className="btn btn-danger btn-lg btn-block"
+                    className="btn btn-warning btn-lg btn-block"
                     target="_blank"
                   >
                     Read Me
