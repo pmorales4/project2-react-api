@@ -3,6 +3,8 @@ import Footer from "./Component/Footer.jsx";
 import Header from "./Component/Header.jsx";
 import Main from "./Component/Main.jsx";
 import Break from "./Component/BreakNews/BreakingNews.jsx";
+import EntertainNews from "./Component/EntertainNews/EntertainmentNews.jsx";
+
 import "./App.css";
 
 function App() {
@@ -11,12 +13,14 @@ function App() {
       <p></p>
       <p></p>
 
-      
       <Header />
+
       <Break />
-      <div className='breakingnews-section-div'>
+
       <Main />
-      </div>
+
+      <EntertainNews />
+
       <Footer />
     </div>
   );
