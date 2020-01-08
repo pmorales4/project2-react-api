@@ -58,13 +58,13 @@ MVP Example
 | Header                  |    H     |      3hrs      |      hrs      |     hrs     |
 | Footer                  |    H     |      1hrs      |      hrs      |     hrs     |
 | Breaking News           |    H     |      5hrs      |     3hrs      |    4hrs     |
-| Entertainment News      |    H     |      5hrs      |      hrs      |     hrs     |
+| Entertainment News      |    H     |      5hrs      |     1hrs      |   .30hrs    |
 | Financial News          |    H     |      5hrs      |      hrs      |     hrs     |
 | Mexico News             |    H     |      5hrs      |      hrs      |     hrs     |
 | Main.jsx                |    H     |      6hrs      |     2hrs      |    3hrs     |
 | Date                    |    H     |      2hrs      |      hrs      |     hrs     |
 | Research & Issues       |    H     |      2hrs      |     6hrs      |    6hrs     |
-| Total                   |    H     |     44hrs      |    16.5hrs    |    20hrs    |
+| Total                   |    H     |     44hrs      |    17.5hrs    |  20.30hrs   |
 
 # Link to API & Site being used:
 
@@ -90,6 +90,6 @@ After:
 
 # 2nd Issue
 
-Trying to figure out how to make multiples STATE, in order to pull information from multiple news APIs for site.  Currently researching the issue.  At this time STATE looks like this below: 
+Trying to figure out how to make multiples STATE, in order to pull information from multiple news APIs for site. Currently researching the issue. At this time STATE looks like this below:
 
 ![picture](src/images/state.png)
