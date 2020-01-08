@@ -1,11 +1,9 @@
 body {
     background-color: antiquewhite;
- 
+
 }
 
-.news-articles{
-   
-}
+.news-articles {}
 
 
 .header-section {
@@ -24,24 +22,42 @@ body {
     background-color: azure;
 }
 
-img {}
+.card-img-top {
+    /* width: 100%; */
+    height: 16rem;  
+}
+
+.btn{
+
+    
+}
+
 
 .card {
-    width: 14rem;
-   
-display: inline-block;
+    max-width: 350px;
+    display: inline-flex;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: rgb(232, 232, 232) 2px solid;
+}
 
+.card-body{
+    height: 11rem;
 
+}
 
+.main-card{
+    padding-bottom: 10rem;
 }
 
 .card-title {
-    font-size: large;
+    font-size: small;
     font-weight: bold;
 }
 
-.card-author {
-    font-size: medium;
+.card-text {
+    font-size: small;
 }
 
 .card-source-name {
@@ -49,28 +65,28 @@ display: inline-block;
 }
 
 .break-title {
-    text-align: left;
-    font-size: large;
-    font-weight: bold;
-    text-decoration: underline;
+  
 }
 
 .breakingnews-section-div {
     background-color: aqua;
-margin: 1%;
-flex: 0 0 45%;
+    
+  
+    
 
 
 }
 
 .entertainnews-section-div {
     background-color: lightcoral;
-    margin: 1%;
-    flex: 1;
+  align-items: stretch;
+   
 
 }
 
-.top-article-section{
+.top-article-section {
     background-color: darkorange;
-    display: flex;
+    
+   
+   
 }

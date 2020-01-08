@@ -3,6 +3,10 @@ import BreakingNews from "../Component/BreakNews/BreakingNews.jsx";
 import Title from "../Component/BreakNews/BreakingNewsTitle.jsx";
 import EnterTitle from "../Component/EntertainNews/EntertainmentNewsTitle.jsx";
 import EntertainNews from "../Component/EntertainNews/EntertainmentNews.jsx";
+import TechTitle from "../Component/TechnologyNews/TechnologyNewsTitle.jsx";
+import TechnologyNews from "../Component/TechnologyNews/TechnologyNews.jsx";
+import LatinTitle from "../Component/LatinNews/LatinNewsTitle.jsx";
+import LatinoNews from "../Component/LatinNews/LatinNews.jsx";
 
 class Main extends Component {
   constructor() {
@@ -10,7 +14,9 @@ class Main extends Component {
 
     this.state = {
       newsdata: [],
-      entertainmentdata: []
+      entertainmentdata: [],
+      technologydata: [],
+      latinodata: []
     };
   }
 
@@ -38,6 +44,28 @@ class Main extends Component {
           entertainmentdata: res.articles
         });
       });
+
+    //TECHNOLOGY NEWS DATA PULL BELOW
+    fetch(
+      "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=63f2a4bf5bdd42b3bf1f0851aa78b335"
+    )
+      .then(res => res.json())
+      .then(res => {
+        this.setState({
+          technologydata: res.articles
+        });
+      });
+
+    //LATINO NEWS DATA PULL BELOW
+    fetch(
+      "https://newsapi.org/v2/top-headlines?country=mx&apiKey=63f2a4bf5bdd42b3bf1f0851aa78b335"
+    )
+      .then(res => res.json())
+      .then(res => {
+        this.setState({
+          latinodata: res.articles
+        });
+      });
   }
 
   render() {
@@ -54,6 +82,10 @@ class Main extends Component {
               <EntertainNews data={this.state.entertainmentdata} />
             </div>
           </div>
+          <TechTitle />
+          <TechnologyNews data={this.state.technologydata} />
+          <LatinTitle />
+          <LatinoNews data={this.state.latinodata} />
         </>
       </div>
     );

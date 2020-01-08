@@ -15,14 +15,14 @@ class BreakingNews extends Component {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{articles.title}</h5>
-                  <h5 className="list-group-item">{articles.author}</h5>
+                  <h5 className="card-text">{articles.author}</h5>
 
                   <a
                     href={articles.url}
-                    className="btn btn-primary"
+                    className="btn btn-danger btn-lg btn-block"
                     target="_blank"
                   >
-                    Article Link
+                    Read Me
                   </a>
                 </div>
               </div>

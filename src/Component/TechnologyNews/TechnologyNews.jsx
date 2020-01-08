@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class EntertainmentNews extends Component {
+class TechnologyNews extends Component {
   render() {
     return (
       <>
@@ -36,4 +36,4 @@ class EntertainmentNews extends Component {
   }
 }
 
-export default EntertainmentNews;
+export default TechnologyNews;

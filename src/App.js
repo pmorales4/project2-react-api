@@ -10,17 +10,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p></p>
+      <p>All Media Outlet Articles</p>
       <p></p>
 
       <Header />
-
       <Break />
-
       <Main />
-
       <EntertainNews />
-
       <Footer />
     </div>
   );
