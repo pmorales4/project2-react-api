@@ -10,7 +10,6 @@ import LatinoNews from "../Component/LatinNews/LatinNews.jsx";
 
 import { Route, Switch } from "react-router-dom";
 
-
 class Main extends Component {
   constructor() {
     super();
@@ -73,77 +72,76 @@ class Main extends Component {
 
   render() {
     return (
-
-
       <>
-
-       <Switch>
-        <Route exact path="/">
-         
-        
-
-
-        <div className="top-article-section">
-          <div className="breakingnews-section-div">
-            <div className="title-title">
-              <Title />
+        <Switch>
+          <Route exact path="/">
+            <div className="top-article-section">
+              <div className="breakingnews-section-div">
+                <div className="title-title">
+                  <Title />
+                </div>
+                <BreakingNews data={this.state.newsdata} />
+              </div>
+              <div className="entertainnews-section-div">
+                <div className="title-title">
+                  <EnterTitle />
+                </div>
+                <EntertainNews data={this.state.entertainmentdata} />
+              </div>
+              <div className="tech-section">
+                <div className="title-title">
+                  <TechTitle />
+                </div>
+                <TechnologyNews data={this.state.technologydata} />
+              </div>
+              <div className="latin-section">
+                <div className="title-title">
+                  <LatinTitle />
+                </div>
+                <LatinoNews data={this.state.latinodata} />
+              </div>
             </div>
-            <BreakingNews data={this.state.newsdata} />
-          </div>
-          <div className="entertainnews-section-div">
-            <div className="title-title">
-              <EnterTitle />
+          </Route>
+
+          {/* THIS SECTION IS THE SEPARATE PAGES ON LINK MENU BAR BELOW */}
+
+          <Route exact path="/entertainment">
+            <div className="entertainnews-section-div">
+              <div className="title-title">
+                <EnterTitle />
+              </div>
+              <EntertainNews data={this.state.entertainmentdata} />
             </div>
-            <EntertainNews data={this.state.entertainmentdata} />
-          </div>
-          <div className="tech-section">
-            <div className="title-title">
-              <TechTitle />
+          </Route>
+
+          <Route exact path="/latinonews">
+            <div className="latin-section">
+              <div className="title-title">
+                <LatinTitle />
+              </div>
+              <LatinoNews data={this.state.latinodata} />
             </div>
-            <TechnologyNews data={this.state.technologydata} />
-          </div>
-          <div className="latin-section">
-            <div className="title-title">
-              <LatinTitle />
+          </Route>
+
+          <Route exact path="/businessnews">
+            <div className="breakingnews-section-div">
+              <div className="title-title">
+                <Title />
+              </div>
+              <BreakingNews data={this.state.newsdata} />
             </div>
-            <LatinoNews data={this.state.latinodata} />
-          </div>
-        </div>
+          </Route>
 
-
-
-
-        </Route>
-
-        <Route exact path="/entertainment"> 
-        <div className="entertainnews-section-div">
-            <div className="title-title">
-              <EnterTitle />
+          <Route exact path="/technews">
+            <div className="tech-section">
+              <div className="title-title">
+                <TechTitle />
+              </div>
+              <TechnologyNews data={this.state.technologydata} />
             </div>
-            <EntertainNews data={this.state.entertainmentdata} />
-          </div>
-        </Route> 
-
-
-
-      
-
-
-
-
+          </Route>
         </Switch>
-
-
-
-
-
-
       </>
-
-
-
-
-
     );
   }
 }

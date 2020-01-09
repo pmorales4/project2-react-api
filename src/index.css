@@ -16,10 +16,11 @@ body {
 
 .footer-section {
     position: relative;
+    padding-top: 5%;
     padding-bottom: 5%;
     font-size: smaller;
-    color: black;
-    background-color: azure;
+    color: white;
+ 
 }
 
 .card-img-top {
@@ -126,11 +127,10 @@ body {
     margin-top: 5%;
     margin-bottom: 3%;
     display: inline-block;
-
 }
 
 #header-btn {
     margin-right: 5px;
     font-weight: bold;
-    text-decoration: underline;
+    
 }
