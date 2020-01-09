@@ -1,6 +1,6 @@
 body {
-    background-color: antiquewhite;
-
+    background-color: black;
+    text-align: center;
 }
 
 .news-articles {}
@@ -66,9 +66,9 @@ body {
 }
 
 .break-title {
-    background-color: rgb(245, 189, 68); 
-    color: black; 
-    
+    background-color: rgb(245, 189, 68);
+    color: black;
+
 }
 
 .top-article-section {
@@ -83,7 +83,7 @@ body {
 
 .entertainnews-section-div {
     background-color: #e3e2df;
-  
+
 }
 
 .tech-section {
@@ -94,13 +94,31 @@ body {
     background-color: #e3e2df;
 }
 
-.tech-title{
-    background-color: rgb(245, 189, 68); 
-    color: black; 
+.tech-title {
+    background-color: rgb(245, 189, 68);
+    color: black;
 }
 
-.Latin-title{
-    background-color: rgb(245, 189, 68); 
-    color: black; 
+.Latin-title {
+    background-color: rgb(245, 189, 68);
+    color: black;
 
+}
+
+.Entertain-title {
+    background-color: lightyellow;
+    color: rgb(45, 138, 220);
+}
+
+.nav {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: inline-block;
+
+}
+
+#header-btn {
+    margin-right: 5px;
+    font-weight: bold;
+    text-decoration: underline;
 }

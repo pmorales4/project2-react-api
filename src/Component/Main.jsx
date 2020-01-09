@@ -29,7 +29,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          newsdata: res.articles.slice(0, 8)
+          newsdata: res.articles.slice(0, 6)
         });
       });
 
@@ -41,7 +41,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          entertainmentdata: res.articles.slice(0, 8)
+          entertainmentdata: res.articles.slice(0, 6)
         });
       });
 
@@ -52,7 +52,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          technologydata: res.articles.slice(0, 8)
+          technologydata: res.articles.slice(0, 6)
         });
       });
 
@@ -63,7 +63,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          latinodata: res.articles.slice(0, 8)
+          latinodata: res.articles.slice(0, 6)
         });
       });
   }

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 class LatinoNews extends Component {
+ 
+
   render() {
     return (
       <>
