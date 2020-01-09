@@ -54,17 +54,18 @@ MVP Example
 | Component               | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------- | :------: | :------------: | :-----------: | :---------: |
 | API Pull - Each Section |    H     |      6hrs      |    1.5hrs     |    2hrs     |
-| Working with API        |    H     |      6hrs      |     4hrs      |    5hrs     |
+| Working with API        |    H     |      6hrs      |     4hrs      |    4hrs     |
 | Header                  |    H     |      3hrs      |      hrs      |     hrs     |
-| Footer                  |    H     |      1hrs      |      hrs      |     hrs     |
+| Footer                  |    H     |      1hrs      |    .30hrs     |   .30hrs    |
 | Breaking News           |    H     |      5hrs      |     3hrs      |    4hrs     |
 | Entertainment News      |    H     |      5hrs      |     1hrs      |   .30hrs    |
-| Financial News          |    H     |      5hrs      |      hrs      |     hrs     |
-| Mexico News             |    H     |      5hrs      |      hrs      |     hrs     |
+| Financial News          |    H     |      5hrs      |     1hrs      |   .30hrs    |
+| Mexico News             |    H     |      5hrs      |     1hrs      |   .30hrs    |
 | Main.jsx                |    H     |      6hrs      |     2hrs      |    3hrs     |
 | Date                    |    H     |      2hrs      |      hrs      |     hrs     |
-| Research & Issues       |    H     |      2hrs      |     6hrs      |    6hrs     |
-| Total                   |    H     |     44hrs      |    17.5hrs    |  20.30hrs   |
+| React Router            |    H     |      2hrs      |      hrs      |     hrs     |
+| Research & Issues       |    H     |      2hrs      |     5hrs      |    6hrs     |
+| Total                   |    H     |     44hrs      |    18.5hrs    |  21.00hrs   |
 
 # Link to API & Site being used:
 

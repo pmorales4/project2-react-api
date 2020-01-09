@@ -74,21 +74,21 @@ class Main extends Component {
         <>
           <div className="top-article-section">
             <div className="breakingnews-section-div">
-              <Title />
+              {/* <Title /> */}
               <BreakingNews data={this.state.newsdata} />
             </div>
             <div className="entertainnews-section-div">
-              <EnterTitle />
+              {/* <EnterTitle /> */}
               <EntertainNews data={this.state.entertainmentdata} />
             </div>
           </div>
 
           <div className="tech-section">
-            <TechTitle />
+            {/* <TechTitle /> */}
             <TechnologyNews data={this.state.technologydata} />
           </div>
           <div className="latin-section">
-            <LatinTitle />
+            {/* <LatinTitle /> */}
             <LatinoNews data={this.state.latinodata} />
           </div>
         </>
