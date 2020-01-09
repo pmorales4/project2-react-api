@@ -8,6 +8,8 @@ import TechnologyNews from "../Component/TechnologyNews/TechnologyNews.jsx";
 import LatinTitle from "../Component/LatinNews/LatinNewsTitle.jsx";
 import LatinoNews from "../Component/LatinNews/LatinNews.jsx";
 
+
+
 import { Route, Switch } from "react-router-dom";
 
 class Main extends Component {
@@ -76,6 +78,7 @@ class Main extends Component {
         <Switch>
           <Route exact path="/">
             <div className="top-article-section">
+             
               <div className="breakingnews-section-div">
                 <div className="title-title">
                   <Title />

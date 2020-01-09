@@ -20,7 +20,7 @@ body {
     padding-bottom: 5%;
     font-size: smaller;
     color: white;
- 
+ font-size: medium;
 }
 
 .card-img-top {
@@ -133,4 +133,13 @@ body {
     margin-right: 5px;
     font-weight: bold;
     
+}
+
+.clock{
+    color: white;
+    font-size: small;
+}
+
+.footer-title{
+    font-size: small;
 }

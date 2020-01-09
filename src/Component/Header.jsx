@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
-
-import { Route, Link, Switch } from "react-router-dom";
+import TheDate from "../Component/CurrentDate/Date.jsx";
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -31,7 +31,9 @@ function Header() {
           <Link style={{ textDecoration: 'none', color: 'black' }} to="/latinonews">Latino News</Link>
           </button>
       </div>
-     
+      <h6>
+          <TheDate />
+        </h6>
     </>
   );
 }
