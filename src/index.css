@@ -65,7 +65,11 @@ body {
     font-size: smaller;
 }
 
-.break-title {}
+.break-title {
+    background-color: rgb(245, 189, 68); 
+    color: black; 
+    
+}
 
 .top-article-section {
     background-color: darkorange;
@@ -88,4 +92,15 @@ body {
 
 .latin-section {
     background-color: #e3e2df;
+}
+
+.tech-title{
+    background-color: rgb(245, 189, 68); 
+    color: black; 
+}
+
+.Latin-title{
+    background-color: rgb(245, 189, 68); 
+    color: black; 
+
 }

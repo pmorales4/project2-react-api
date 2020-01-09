@@ -13,8 +13,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>All Media Outlet Articles</p>
-      <p></p>
+    
 
       <Header />
       {/* <Break /> */}

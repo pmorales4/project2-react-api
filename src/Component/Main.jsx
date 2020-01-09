@@ -29,7 +29,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          newsdata: res.articles
+          newsdata: res.articles.slice(0, 8)
         });
       });
 
@@ -41,7 +41,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          entertainmentdata: res.articles
+          entertainmentdata: res.articles.slice(0, 8)
         });
       });
 
@@ -52,7 +52,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          technologydata: res.articles
+          technologydata: res.articles.slice(0, 8)
         });
       });
 
@@ -63,7 +63,7 @@ class Main extends Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          latinodata: res.articles
+          latinodata: res.articles.slice(0, 8)
         });
       });
   }
@@ -74,21 +74,21 @@ class Main extends Component {
         <>
           <div className="top-article-section">
             <div className="breakingnews-section-div">
-              {/* <Title /> */}
+              <Title />
               <BreakingNews data={this.state.newsdata} />
             </div>
             <div className="entertainnews-section-div">
-              {/* <EnterTitle /> */}
+              <EnterTitle />
               <EntertainNews data={this.state.entertainmentdata} />
             </div>
           </div>
 
           <div className="tech-section">
-            {/* <TechTitle /> */}
+            <TechTitle />
             <TechnologyNews data={this.state.technologydata} />
           </div>
           <div className="latin-section">
-            {/* <LatinTitle /> */}
+            <LatinTitle />
             <LatinoNews data={this.state.latinodata} />
           </div>
         </>

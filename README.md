@@ -64,8 +64,8 @@ MVP Example
 | Main.jsx                |    H     |      6hrs      |     2hrs      |    3hrs     |
 | Date                    |    H     |      2hrs      |      hrs      |     hrs     |
 | React Router            |    H     |      2hrs      |      hrs      |     hrs     |
-| Research & Issues       |    H     |      2hrs      |     5hrs      |    6hrs     |
-| Total                   |    H     |     44hrs      |    18.5hrs    |  21.00hrs   |
+| Research & Issues       |    H     |      2hrs      |     5hrs      |    7hrs     |
+| Total                   |    H     |     44hrs      |    18.5hrs    |  22.00hrs   |
 
 # Link to API & Site being used:
 
