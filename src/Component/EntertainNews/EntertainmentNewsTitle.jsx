@@ -4,7 +4,7 @@ function EntertainmentTitle() {
 
     return (
         <div className='Entertain-title'>
-            <h3>Entertainment News</h3>
+            <h1>Entertainment News</h1>
         </div>
     )
 }

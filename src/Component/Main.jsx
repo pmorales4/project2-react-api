@@ -70,29 +70,34 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="news-articles">
-        <>
-          <div className="top-article-section">
-            <div className="breakingnews-section-div">
+      <>
+        <div className="top-article-section">
+          <div className="breakingnews-section-div">
+            <div className="title-title">
               <Title />
-              <BreakingNews data={this.state.newsdata} />
             </div>
-            <div className="entertainnews-section-div">
-              <EnterTitle />
-              <EntertainNews data={this.state.entertainmentdata} />
-            </div>
+            <BreakingNews data={this.state.newsdata} />
           </div>
-
+          <div className="entertainnews-section-div">
+            <div className="title-title">
+              <EnterTitle />
+            </div>
+            <EntertainNews data={this.state.entertainmentdata} />
+          </div>
           <div className="tech-section">
-            <TechTitle />
+            <div className="title-title">
+              <TechTitle />
+            </div>
             <TechnologyNews data={this.state.technologydata} />
           </div>
           <div className="latin-section">
-            <LatinTitle />
+            <div className="title-title">
+              <LatinTitle />
+            </div>
             <LatinoNews data={this.state.latinodata} />
           </div>
-        </>
-      </div>
+        </div>
+      </>
     );
   }
 }

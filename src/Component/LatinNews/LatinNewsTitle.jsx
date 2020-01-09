@@ -3,7 +3,7 @@ import React from "react";
 function LatinTitle() {
   return (
     <div className="Latin-title">
-      <h3>Latino News</h3>
+      <h1>Latino News</h1>
     </div>
   );
 }

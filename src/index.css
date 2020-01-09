@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.news-articles {}
+
 
 
 .header-section {
@@ -65,50 +65,62 @@ body {
     font-size: smaller;
 }
 
-.break-title {
-    background-color: rgb(245, 189, 68);
-    color: black;
-
+.break-title-compo {
+   
+    color: rgb(1, 1, 1);
+   margin-bottom: 5%;
+   margin-top: 2%;
+   
 }
 
-.top-article-section {
-    background-color: darkorange;
-
-}
-
-.breakingnews-section-div {
-    background-color: #e3e2df;
-
-}
-
-.entertainnews-section-div {
-    background-color: #e3e2df;
-
-}
-
-.tech-section {
-    background-color: #e3e2df;
-}
-
-.latin-section {
-    background-color: #e3e2df;
-}
-
-.tech-title {
-    background-color: rgb(245, 189, 68);
-    color: black;
-}
-
-.Latin-title {
-    background-color: rgb(245, 189, 68);
-    color: black;
+/* main.jsx component for all titles */
+.title-title{
+ padding-top: 1%;
 
 }
 
 .Entertain-title {
-    background-color: lightyellow;
-    color: rgb(45, 138, 220);
+ 
+    color: black;
+    margin: 5%;
 }
+
+
+.top-article-section {
+   
+
+}
+
+.breakingnews-section-div {
+    background-color: #c4c3c0;
+
+}
+
+.entertainnews-section-div {
+    background-color: #c4c3c0;
+
+}
+
+.tech-section {
+    background-color: #c4c3c0;
+}
+
+.latin-section {
+    background-color: #c4c3c0;
+}
+
+.tech-title {
+    color: black;
+    margin-bottom: 5%;
+}
+
+.Latin-title {
+    color: black;
+   margin-bottom: 5%;
+
+}
+
+
 
 .nav {
     margin-top: 5%;
