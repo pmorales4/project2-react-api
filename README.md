@@ -114,3 +114,14 @@ After:
 # Component architecture using Chrome.
 
 ![picture](src/images/componentArc.png)
+
+
+# Additional Libraries & Sites used:
+
+Netlify: https://www.netlify.com
+Bootstrap: https://getbootstrap.com
+News API; https://newsapi.org
+React Fetch Data: https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
+DEV Javascript Fetch API: https://dev.to/attacomsian/introduction-to-javascript-fetch-api-4f4c
+Using Fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
