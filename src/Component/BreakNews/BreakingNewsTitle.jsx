@@ -4,7 +4,7 @@ function BreakingTitle() {
 
     return (
         <div className='break-title-compo'>
-            <h1>Breaking News</h1>
+            <h1><span>/</span> Breaking News <span>/</span></h1>
         </div>
     )
 }
