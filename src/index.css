@@ -1,141 +1,174 @@
 
-
+/* ******************** */
 /* body of the website */
+/* ******************* */
 body {
     background-color: black;
     text-align: center;
 }
 
-/* .header-section {
-    position: relative;
-    padding-top: 5%;
-    font-size: smaller;
-    color: black;
-    background-color: azure;
-} */
-
-
-
+/* ************************************ */
 /* aligns pic of card on top correctly */
+/* ********************************** */
 .card-img-top {
-    /* width: 100%; */
     height: 16rem;
     display: inline-flex;
 }
 
+/* ****************************** */
 /* each individual card layout */
+/* ****************************** */
 .card {
     max-width: 350px;
     display: inline-flex;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    /* border: 1px solid; */
-    /* border-color: #bab8b9; */
 }
 
+/* ************************ */
 /* Whole card body stretch */
+/* *********************** */
 .card-body {
     height: 11rem;
 
 }
 
-/* .main-card {
-    padding-bottom: 10rem;
-} */
-
+/* *********************** */
 /* Article title on card */
+/* ********************** */
 .card-title {
     font-size: small;
     font-weight: bold;
 }
 
+/* ********************** */
 /* Authors name on card */
+/* ********************* */
 .card-text {
     font-size: small;
 }
 
-/* .card-source-name {
-    font-size: smaller;
-} */
-
+/* *************************** */
 /* Breaking news title setup */
+/* ************************* */
 .break-title-compo {
-    color: rgb(0, 0, 0);
+    color: white;
     margin-bottom: 5%;
     margin-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
+/* ****************************** */
 /* Entertainment news title setup */
+/* ****************************** */
 .Entertain-title {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     margin: 5%;
+    background-color: black;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
+/* ********************** */
 /* Tech news title setup */
+/* ********************* */
 .tech-title {
-    color: black;
+    color: white;
     margin-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
+/* ************************ */
 /* Latino news title setup */
+/* *********************** */
 .Latin-title {
-    color: black;
+    color: white;
     margin-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 
 }
 
+/* ************************* */
 /* Breaking news slash bars */
+/* ************************ */
 span {
     color: blue;
 }
 
+/* ****************************** */
 /* Main.jsx component for all titles */
+/* ****************************** */
 .title-title {
     padding-top: 1%;
 
 }
 
+/* ******************************* */
 /* Background color or section div */
+/* ****************************** */
 .breakingnews-section-div {
     background-color: rgb(255, 255, 255);
 
 }
 
+/* ****************************** */
 /* Background color or section div */
+/* ****************************** */
 .entertainnews-section-div {
     background-color: rgb(255, 255, 255);
-
 }
 
+/* ****************************** */
 /* Background color or section div */
+/* ****************************** */
 .tech-section {
     background-color: rgb(255, 255, 255);
 }
 
+/* ****************************** */
 /* Background color or section div */
+/* ****************************** */
 .latin-section {
     background-color: rgb(255, 255, 255);
 }
 
+/* ****************************** */
 /* align  all menu bar on page */
+/* ****************************** */
 .nav {
     margin-top: 5%;
     margin-bottom: 3%;
     display: inline-block;
 }
 
+/* ******************** */
 /* btns on header page */
+/* ******************* */
 #header-btn {
     margin-right: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ********************************************* */
 /* font for main title page - world news report */
+/* ******************************************* */
 .title-header {
     color: white;
     margin-top: 5%;
@@ -144,13 +177,9 @@ span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* clock or Date.jsx */
-.clock {
-    color: white;
-    font-size: x-small;
-}
-
+/* *********************************************** */
 /* Last line in footer section with @ 2019 in it. */
+/* ********************************************* */
 .footer-section {
     position: relative;
     padding-top: 5%;
@@ -160,7 +189,17 @@ span {
     font-size: medium;
 }
 
+/* ********************** */
 /* foot characters small */
+/* ********************* */
 .footer-title {
     font-size: small;
+}
+
+/* ****************** */
+/* clock or Date.jsx */
+/* ***************** */
+.clock {
+    color: white;
+    font-size: x-small;
 }

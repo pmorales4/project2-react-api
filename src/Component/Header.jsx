@@ -14,7 +14,7 @@ function Header() {
         <button
           id="header-btn"
           type="button"
-          class="btn btn-outline-light btn-lg"
+          class="btn btn-outline-primary btn-lg"
         >
           <Link style={{ textDecoration: "none", color: "white" }} to="/">
             Home
@@ -24,7 +24,7 @@ function Header() {
         <button
           id="header-btn"
           type="button"
-          class="btn btn-outline-light btn-lg"
+          class="btn btn-outline-primary btn-lg"
         >
           <Link
             style={{ textDecoration: "none", color: "white" }}
@@ -37,7 +37,7 @@ function Header() {
         <button
           id="header-btn"
           type="button"
-          class="btn btn-outline-light btn-lg"
+          class="btn btn-outline-primary btn-lg"
         >
           <Link
             style={{ textDecoration: "none", color: "white" }}
@@ -50,7 +50,7 @@ function Header() {
         <button
           id="header-btn"
           type="button"
-          class="btn btn-outline-light btn-lg"
+          class="btn btn-outline-primary btn-lg"
         >
           <Link
             style={{ textDecoration: "none", color: "white" }}
@@ -63,7 +63,7 @@ function Header() {
         <button
           id="header-btn"
           type="button"
-          class="btn btn-outline-light btn-lg"
+          class="btn btn-outline-primary btn-lg"
         >
           <Link
             style={{ textDecoration: "none", color: "white" }}
