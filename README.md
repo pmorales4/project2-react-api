@@ -95,8 +95,9 @@ Trying to figure out how to make multiples STATE, in order to pull information f
 
 Before:
 ![picture](src/images/state.png)
-After:
-![picture](src/images/statecp.png)
 
-# Architexture of New Website using React and NewsAPI.org
+![picture](src/images/statecp.png)
+After:
+
+# Architecture of New Website using React and NewsAPI.org
 ![picture](src/images/architexture.png)
