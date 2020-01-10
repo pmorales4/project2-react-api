@@ -99,5 +99,9 @@ Before:
 ![picture](src/images/statecp.png)
 After:
 
+** WILL FIX THIS AREA TO USE ON API AND NOT MULTIPLE, AT THIS TIME SITE WAS SET UP WITH MULTIPLE API PULLS ON 1 API KEY.  THIS IS NOT RECOMMENDED AT ALL.  TO MUCH TAPPING INTO THAT KEY WHICH WOULD INCREASE COST.  !!!!DO NOT DO THAT!!!   WILL FIX SOON. **
+
+
+
 # Architecture of New Website using React and NewsAPI.org
 ![picture](src/images/architexture.png)
