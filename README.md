@@ -2,7 +2,7 @@
 
 # Project Description
 
-The project two API I have chosen is News.org-api. I am looking to add eight components to the project. Within the eight components, five will pull data in order to populate their section of the application with news information. the final project goal is to make it look at the first image below. Individual user are able to click on the news data and read the articles.
+The project two API I have chosen is News.org-api. I am looking to add eight components to the project. Within the eight components, five will pull data in order to populate their section of the application with news information. the final project goal is to make it look like the first image below. Individual users are able to click on the news data and read the articles which is redirected to a new popup window to read.  Examples sites are below:
 
 CNN: https://www.cnn.com
 Dailymail: https://www.dailymail.co.uk/ushome/index.html
@@ -17,9 +17,11 @@ Deployment Link: https://pmorales.netlify.com
 
 # Wireframes
 
+This is my first mockup shot of what I thought about when starting this project, I have the final version towards the bottom for viewing purposes. These are all React Components. 
+
 ![picture](src/images/Project-2-Wireframe.jpg)
 
-Above is the layout of my components and how the site will use the component on a web page. I have labeled each section on wireframe. All components are listed above. To the right you will see five components where a data pull will be used (state).
+Above is the layout of my components and how the site will use the components on a web page. I have labeled each section on thew wireframe. All components are listed above. To the right you will see five components where a data pull will be used (state)-Component #6.  However, this may change as I am going forward with it.
 
 # MVP / PostMVP - 5min
 
@@ -27,7 +29,7 @@ MVP Example
 
 - API: https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=63f2a4bf5bdd42b3bf1f0851aa78b335
 
-- API: Several different ones per section on website.
+- API: Several different ones per section on website. *[ERROR PRONE HERE AS YOU SHOULD HAVE 1 API AND LOOPING IT WITH DATA]*
 - User can click on news links.
 
 ![picture](src/images/IMG_87599.jpg)
