@@ -105,3 +105,7 @@ After:
 
 # Architecture of New Website using React and NewsAPI.org
 ![picture](src/images/architexture.png)
+
+# Component architecture using Chrome.  
+
+![picture](src/images/componentArc.png)
