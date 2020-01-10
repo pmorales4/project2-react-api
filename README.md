@@ -53,21 +53,25 @@ MVP Example
 
 # Time Frames
 
-| Component               | Priority | Estimated Time | Time Invested | Actual Time |
-| ----------------------- | :------: | :------------: | :-----------: | :---------: |
-| API Pull - Each Section |    H     |      6hrs      |    1.5hrs     |    2hrs     |
-| Working with API        |    H     |      6hrs      |     4hrs      |    4hrs     |
-| Header                  |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Footer                  |    H     |      1hrs      |    .30hrs     |   .30hrs    |
-| Breaking News           |    H     |      5hrs      |     3hrs      |    4hrs     |
-| Entertainment News      |    H     |      5hrs      |     1hrs      |   .30hrs    |
-| Financial News          |    H     |      5hrs      |     1hrs      |   .30hrs    |
-| Mexico News             |    H     |      5hrs      |     1hrs      |   .30hrs    |
-| Main.jsx                |    H     |      6hrs      |     2hrs      |    3hrs     |
-| Date                    |    H     |      2hrs      |    .30hrs     |   .15hrs    |
-| React Router            |    H     |      2hrs      |     5hrs      |    5hrs     |
-| Research & Issues       |    H     |      2hrs      |     15hrs     |    10hrs    |
-| Total                   |    H     |     44hrs      |    36.1hrs    |  31.75hrs   |
+| Component                | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------ | :------: | :------------: | :-----------: | :---------: |
+| API Pull - Each Section  |    H     |      6hrs      |    1.5hrs     |    2hrs     |
+| Working with API         |    H     |      6hrs      |     4hrs      |    4hrs     |
+| Header                   |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Footer                   |    H     |      1hrs      |    .30hrs     |   .30hrs    |
+| Breaking News            |    H     |      4hrs      |     3hrs      |    4hrs     |
+| Breaking News Title      |    H     |      1hrs      |    .30hrs     |   .30hrs    |
+| Entertainment News       |    H     |      4hrs      |     1hrs      |   .30hrs    |
+| Entertainment News Title |    H     |      1hrs      |    .30hrs     |   .30hrs    |
+| Business News            |    H     |      4hrs      |     1hrs      |   .30hrs    |
+| Business News Title      |    H     |      1hrs      |    .30hrs     |   .30hrs    |
+| Latin News               |    H     |      4hrs      |     1hrs      |   .30hrs    |
+| Latin News Title         |    H     |      1hrs      |    .30hrs     |   .30hrs    |
+| Main.jsx                 |    H     |      6hrs      |     2hrs      |    3hrs     |
+| Date                     |    H     |      2hrs      |    .30hrs     |   .15hrs    |
+| React Router             |    H     |      2hrs      |     5hrs      |    5hrs     |
+| Research & Issues        |    H     |      2hrs      |     15hrs     |    10hrs    |
+| Total                    |    H     |     48hrs      |    38.1hrs    |  33.75hrs   |
 
 # Link to API & Site being used:
 
