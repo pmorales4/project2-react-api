@@ -9,16 +9,16 @@ function Footer() {
   return (
     <>
       <div className="nav">
-        <button id="header-btn" type="button" class="btn btn-warning btn-sm">
-          <Link style={{ textDecoration: "none", color: "black" }} to="/">
+        <button id="header-btn" type="button" class="btn btn-outline-primary btn-sm">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
             Home
           </Link>
         </button>
 
         {/* <div className="nav-item"> */}
-        <button id="header-btn" type="button" class="btn btn-warning btn-sm">
+        <button id="header-btn" type="button" class="btn btn-outline-primary btn-sm">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/entertainment"
           >
             Entertainment News
@@ -26,27 +26,27 @@ function Footer() {
         </button>
         {/* </div> */}
 
-        <button id="header-btn" type="button" class="btn btn-warning btn-sm">
+        <button id="header-btn" type="button" class="btn btn-outline-primary btn-sm">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/businessnews"
           >
             Business News
           </Link>
         </button>
 
-        <button id="header-btn" type="button" class="btn btn-warning btn-sm">
+        <button id="header-btn" type="button" class="btn btn-outline-primary btn-sm">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/technews"
           >
             Tech News
           </Link>
         </button>
 
-        <button id="header-btn" type="button" class="btn btn-warning btn-sm">
+        <button id="header-btn" type="button" class="btn btn-outline-primary btn-sm">
           <Link
-            style={{ textDecoration: "none", color: "black" }}
+            style={{ textDecoration: "none", color: "white" }}
             to="/latinonews"
           >
             Latino News
