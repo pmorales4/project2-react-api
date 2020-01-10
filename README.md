@@ -93,4 +93,10 @@ After:
 
 Trying to figure out how to make multiples STATE, in order to pull information from multiple news APIs for site. Currently researching the issue. At this time STATE looks like this below:
 
+Before:
 ![picture](src/images/state.png)
+After:
+![picture](src/images/statecp.png)
+
+# Architexture of New Website using React and NewsAPI.org
+![picture](src/images/architexture.png)
